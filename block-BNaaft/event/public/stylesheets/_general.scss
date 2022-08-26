@@ -1,0 +1,49 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* padding: 0 50px; */
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(153, 150, 241), rgb(251, 201, 213));
+  box-sizing: border-box;
+  margin-bottom: 200px;
+}
+
+a {
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: rgb(121, 253, 240)
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border: 1px solid #ca8747;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: #ca8747;
+  padding: 0.25rem 0.5rem;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: rgb(121, 253, 240);
+}
+
+main {
+  padding: 0 3rem;
+}
